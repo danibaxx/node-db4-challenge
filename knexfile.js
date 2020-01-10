@@ -5,13 +5,13 @@ module.exports = {
     client: "sqlite3",
     useNullAsDefault: true, // needed for sqlite
     connection: {
-      filename: "./data/zoos.db3",
+      filename: "",
     },
     migrations: {
-      directory: "./data/migrations",
+      directory: "",
     },
     seeds: {
-      directory: "./data/seeds",
+      directory: "",
     },
     // needed when using foreign keys
     pool: {
